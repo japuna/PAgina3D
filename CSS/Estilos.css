@@ -1,0 +1,795 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Estilos Portada. */
+
+html
+{
+	height:100%;
+	width:100%;
+	margin-left:0%;
+	margin-top:0%;
+}
+
+
+body
+{
+	height:100%;
+	width:100%;
+	font-family: 'Lato', serif;	
+	color:white;
+	margin-left:0%;
+	margin-top:0%;
+}
+@media only screen and (min-width: 860px) {
+	body, html
+	{
+		font-size:100%;	
+	}
+	
+}
+
+
+@media only screen and (max-width: 550px) {
+	body, html
+	{
+		font-size:80%;	
+	}
+	
+}
+
+@media only screen and (max-width: 860px) and (min-width:550px) {
+	body, html
+	{
+		font-size:90%;	
+	}
+	
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+                                    /* PRELOADER*/
+/*---------------------------------------------------------------------------------------------------*/
+#preloader {
+    position: fixed;
+    top:0; left:0;
+    right:0; bottom:0;
+    background-color:#FFF;
+    z-index: 100;
+}
+#loader {
+	vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*left:45%; top:27%;
+	*/background-image:url(../Imagenes/pies.gif);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+                                    /* PAGINA PRINCIPAL*/
+/*---------------------------------------------------------------------------------------------------*/
+
+#portada
+{
+	width:100%;
+	height:560px;		
+	position:relative; 	
+	float:left;	
+	margin-left:0%;
+	margin-top:0%;
+	background-image:url(../Imagenes/pintura.png);
+	background-position:center;
+	animation-name: mymove1;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+	-webkit-animation-name: mymove1;
+	-webkit-animation-duration: 2s;
+	background-color:#A81127;
+
+}
+
+
+#portada h1
+{
+	font-size:5.5rem;	
+}
+
+#portada h2
+{
+	font-size:3rem;	
+}
+
+#portada h3
+{
+	font-size:2rem	
+}
+
+
+#navegacion
+{
+	top:0;
+	width:100%;
+	height:70px;	
+	position:absolute;
+	z-index:60;
+	float:left;
+	font-weight:600;
+	background-color:#2C2C2C;
+	
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+                                    /* IDIOMAS*/
+/*---------------------------------------------------------------------------------------------------*/
+#idiomas
+{
+	height:70px;
+	position:relative;
+	float:left;
+	margin-left:1.5%;	
+}
+
+	
+@media only screen and (max-width: 400px) {
+	#idiomas
+	{	
+		width:60%;
+	}
+}
+
+@media only screen and (max-width: 550px) and (min-width:400px) {
+	#idiomas
+	{	
+			width:40%;
+	}
+}
+
+@media only screen and (max-width: 980px) and (min-width:550px) {
+	#idiomas
+	{	
+		width:25%;
+	}
+}
+
+@media only screen and (min-width: 980px) {
+	#idiomas
+	{	
+		width:15%;
+	}
+}
+
+
+
+.lenguas
+{
+	height:100%;
+	background-size:84%;
+	position:relative;
+	float:left;
+	background-repeat:no-repeat;
+	width:25%;
+	background-position:center;
+	border-color:transparent;
+	background-color:#2c2c2c;
+		
+}
+
+
+
+
+ #es
+ {
+	 background-image:url(../Imagenes/es.png);
+	 
+}
+
+#es:hover, #fr:hover, #en:hover
+{
+	
+cursor:pointer;
+}
+
+
+#es:hover
+{
+	background-image:url(../Imagenes/esHover.png);
+}
+ 
+ #fr
+ {
+	 background-image:url(../Imagenes/fr.png);
+	 
+}
+#fr:hover
+{
+	background-image:url(../Imagenes/frHover.png);
+}
+
+#en
+ {
+	 background-image:url(../Imagenes/en.png);
+	 
+}
+#en:hover
+{
+	background-image:url(../Imagenes/enHover.png);
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+                                    /*MENU PRINCIPAL*/
+/*---------------------------------------------------------------------------------------------------*/
+#menu{
+    position:absolute;
+    height: 70px;
+    width: 57.5%;
+    right:8%;
+    display: flex;
+}
+
+.menuS
+{
+	height:70px;
+	width:25%;
+	position:relative;
+	float:left;
+    margin-left: auto;
+    display: flex;
+}
+
+@media only screen and (max-width: 550px) {
+	#menu
+	{
+		display:none;
+	}
+}
+
+
+@media only screen and (min-width: 550px) {
+	#menu
+	{
+		display:flex;
+	}
+}
+
+
+
+.menuS h1
+{
+	color: white;
+    font-size:1.2rem;
+	display:block;	
+    margin:auto;
+}
+
+.menuS:hover 
+{
+	cursor:pointer;
+	background-color:#A81127;	
+	font-size:0.9rem;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+                                    /* MENÚ PEQUEÑO*/
+/*---------------------------------------------------------------------------------------------------*/
+
+.menuDesplegable
+{
+	height:100%;
+	position:absolute;	
+	background-image:url(../SVG/menuDesplegable.svg);
+	background-repeat:no-repeat;
+	background-position:center;
+	/*background-color:black;
+	
+	*/background-size:30%;
+	z-index:5;
+}
+
+@media only screen and (max-width: 550px) {
+	
+.menuDesplegable
+{
+	width:23.34%;
+	display:block;	
+		left:76.67%;
+}
+}
+@media only screen and (min-width: 550px) {
+.menuDesplegable
+{
+	display:none;	
+	width:23.34%;
+}
+}
+
+@media only screen and (max-width: 400px) {
+.menuDesplegable
+{
+	width:30%;
+	display:block;	
+	left:70%;
+}
+}
+
+
+.menuDesplegable:hover
+{
+	/*background-color:#D24F67;
+	*/
+	background-color:#A81127;
+	cursor:pointer;	
+}
+
+
+.menuPequeno
+{
+	width:100%;
+	height:238px;
+	position:fixed;
+	z-index:5;
+	background-color:#2E2E2E;
+	display:none;
+	overflow:hidden;
+		
+ }
+
+@media only screen and (max-width: 550px) {
+	.menuPequeno
+	{
+		margin-top:18%;
+	}
+	
+}
+
+@media only screen and (max-width: 350px) {
+	.menuPequeno
+	{
+		margin-top:20%;
+	}
+	
+}
+
+
+.menuPeqLetras
+{	position:relative;
+	height:48px;
+	line-height: 48px;
+	width:100%;
+	color:white;
+	font-size:1.7rem;
+	font-weight:normal;	
+	vertical-align:middle;
+}
+.lineasMenu
+{
+	height:2px;
+	width:100%;
+	position:relative;
+	float:left;
+	overflow:hidden;		
+	margin:0;
+}
+.menuPeqLetras::before
+{
+	content:"\00a0";
+	padding: 0 0 0 3%;	
+}
+.menuPeqLetras:hover
+{
+	cursor:pointer;
+	background-color:#A81127;
+	font-size:1.85rem;
+		
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+                                    /* 3D*/
+/*---------------------------------------------------------------------------------------------------*/
+#contenedor3d
+{
+	width:100%;
+	height:560px;	
+	margin-left:1%;
+	position:absolute;	
+	z-index:1;
+
+}
+/*---------------------------------------------------------------------------------------------------*/
+                                    /* TÍTULO*/
+/*---------------------------------------------------------------------------------------------------*/
+
+#imagen
+{   width:40%;
+    height:100%;
+    opacity:1;
+    background-image:url("../Imagenes/trespies4.png");  
+    position: absolute;
+	background-repeat:no-repeat;	
+	
+    
+	animation: fadeIn  ease-in 1;
+    -moz-animation: fadeIn  ease-in 1;
+    -webkit-animation: fadeIn  ease-in 1;
+  	
+	
+	 -webkit-animation-fill-mode:forwards;  
+ 	-moz-animation-fill-mode:forwards;
+ 	animation-fill-mode:forwards;
+    
+ 	-webkit-animation-duration:4s;
+ 	-moz-animation-duration:4s;
+ 	animation-duration:4s;
+ 
+ 	-webkit-animation-delay: 4s;
+	-moz-animation-delay: 4s;
+	animation-delay: 4s;
+}
+
+#letras
+{
+	height:20%;
+	width:100%;	
+	margin-left:22%;
+	position:absolute;
+	line-height:0.6rem;
+
+	-webkit-animation:margen ease-in 1;  
+ 	-moz-animation:margen ease-in 1;
+ 	animation:margen ease-in 1;
+		
+ 	-webkit-animation-fill-mode:forwards;  
+ 	-moz-animation-fill-mode:forwards;
+ 	animation-fill-mode:forwards;
+ 
+	 -webkit-animation-duration:0.8s;
+ 	-moz-animation-duration:0.8s;
+ 	animation-duration:0.8s;
+ 
+	-webkit-animation-delay: 5s;
+	-moz-animation-delay: 5s;
+	animation-delay: 5s;
+	
+
+}
+
+
+
+@media only screen and (max-width: 300px) {
+    #imagen
+	{
+    	width: 80%;
+        left:10%;
+        top:40px;
+		-webkit-animation:none;
+ 		-moz-animation:none;
+ 		animation:none;
+        background-size:auto 55%;
+        background-position:top;
+        
+	}
+    
+	#letras
+	{
+		margin-top:200%;
+		margin-left:0%;
+    	-webkit-animation:none;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+ 		-moz-animation:none;
+ 		animation:none;
+	}		
+}
+
+@media only screen and (max-width: 550px) and (min-width: 301px) {
+   #imagen
+	{
+    	width: 80%;
+        left:10%;
+        top:40px;
+		-webkit-animation:none;
+ 		-moz-animation:none;
+ 		animation:none;
+        background-size:auto 55%;
+        background-position:top;
+        
+	}
+	#letras
+	{
+		margin-top:85%;
+		margin-left:0%;
+    	-webkit-animation:none;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+ 		-moz-animation:none;
+ 		animation:none;
+	}		
+}
+
+
+@media only screen and (min-width: 550px) and (max-width:1024px) {
+   #imagen
+	{
+    	width: 100%;
+		margin:2% 0 0 1%;
+        background-size:auto 60%;
+        background-position:left;
+	}
+	#letras
+	{
+    	/*margin-top:14%;
+		*/
+		margin-top:220px;
+	}		
+}
+
+
+@media only screen and (min-width: 1024px){
+   #imagen
+	{
+    	width: 35%;
+		margin:2% 0 0 13%;
+        background-size:auto 80%;
+        background-position:center;
+    }
+    
+	#letras
+	{
+    	/*margin-top:14%;
+		*/
+		margin-top:220px;
+	}		
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+                                    /*FOOTER*/
+/*---------------------------------------------------------------------------------------------------*/
+footer
+{
+	width:100%;
+	height:80px;
+	background-color:#2C2c2c;
+	position:relative; 	
+	float:left;/*
+	overflow:hidden;
+	*/left:0;
+	animation-name: mymove1;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+	-webkit-animation-name: mymove1;
+	-webkit-animation-duration: 2s;
+    display:flex;
+}
+
+.imagenRedes
+{
+	height:56px;
+	background-size:100%;
+	background-repeat:no-repeat;
+	float:left;
+	position:relative;
+}
+
+.imagenRedes:hover
+{
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 550px) {
+    
+    .imagenRedes
+    { 
+        width:4%;
+        margin-top:10px;
+    }
+    
+     #facebook
+    {
+        margin-left: 43%;    
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    
+    .imagenRedes
+    { 
+        width:12%;
+        margin-top:10px;
+         margin-left:2%;
+    }    
+    
+    #facebook
+    {
+        margin-left: 30%;    
+    }
+}
+
+#facebook
+{
+	
+	background-image:url(../Imagenes/facebookGris.svg);
+        
+}
+
+#facebook:hover
+{
+	background-image:url(../Imagenes/facebook.svg);	
+}
+
+
+
+#instagram
+{
+	
+	background-image:url(../Imagenes/instagramGris.svg);
+}
+
+#instagram:hover
+{
+	background-image:url(../Imagenes/instagram.svg);
+}
+
+
+#google
+{
+	
+	background-image:url(../Imagenes/googleGris.svg)
+}
+
+#google:hover
+{
+	background-image:url(../Imagenes/google.svg);
+}
+
+#menuInicial
+{
+	width:6%;
+	height:30%;
+	position:absolute;
+	margin: 1% 0 0 92%;	
+	background-image:url(../Imagenes/menu.png);
+	background-repeat:no-repeat;
+	background-size:88%;
+		z-index:50;
+}
+
+#cuadroTrespies
+{
+
+	position:absolute;
+	width :32%;
+	height:450px;
+	background-color:white;
+	margin-left:66.6%;
+	z-index:10;
+	/*background-color:#A81127;
+	*/
+	background-color:white;
+	margin-top:3.4%;
+	border-radius:4px;
+	border-color:#A81127;
+	border-width:10px;
+		
+}
+
+p
+{
+	font-size:0.7rem;	
+}
+
+
+#intermedio
+{
+    width:100%;
+    height: 300px;
+    background-color:#FFFFD4;
+    position: relative;
+    float:left;
+    background-image: url(../Imagenes/papel.jpg);
+    background-size: 150%;
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+                                    /* CONTENEDORES VER*/
+/*---------------------------------------------------------------------------------------------------*/
+
+.presentacion
+{
+	width:100%;
+	position:relative;	
+	float:left;
+	overflow:hidden;
+	left:0;
+    background-position: center;
+	
+}
+/*Alberga el título de la sección*/
+.presentacionSeccion{
+	color:white;
+	margin:77px 0 0 27%;
+	overflow:hidden;
+	float:left;
+    position: absolute;
+}
+.presentacion h1{
+	font-size:3.3rem;
+	color:beige;
+}
+
+
+.imagenSeccion{
+	float:left;
+	width:30%;
+	height:250px;
+	color:#fff;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+
+@media only screen and (max-width: 550px) {
+	
+	.imagenSeccion
+	{
+		position:absolute;
+		margin:-10% 0 0 56%;
+		background-size:130px;
+	}
+	
+}
+
+@media only screen and (min-width: 550px) {
+	
+	.imagenSeccion
+	{
+		position:relative;
+		left:2%;
+		top:-23px;
+        background-size:70%;
+        
+	}
+	
+	
+}
+
+@media only screen and (max-width: 550px) {
+.presentacion
+{	
+	height:150px;
+	background-color:#a81127;
+}
+
+}
+
+@media only screen and (min-width: 550px) {
+.presentacion
+{	
+	height:200px;
+	background-color:#0F2B3C;
+}
+
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+                                    /* ANIMACIONES*/
+/*---------------------------------------------------------------------------------------------------*/
+
+@-webkit-keyframes mymove1 {
+    from {top: -200px;}
+    to {top: 0px;}
+}
+
+/* Standard syntax */
+@keyframes mymove1 {
+    from {top: -200px;}
+    to {top: 0px;}
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+@-webkit-keyframes margen{ from { margin-left:22%; } to { margin-left:15%; } }
+@-moz-keyframes margen{ from { margin-left:22%; } to { margin-left:15%; }}
+@keyframes margen{ from { margin-left:22%; } to { margin-left:15%; }}
+

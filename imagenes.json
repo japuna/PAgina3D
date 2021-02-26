@@ -1,0 +1,135 @@
+{
+	"Catalogo": [
+		{ 
+      	"titleItem": "Andrés y los vegetales", 
+      	"description": "Ilustración Digital", 
+      	"image": "Imagenes/Ilustracion/calabaza.jpg",
+		"tamano":"140%",
+		"id":"1"
+      	},
+      { 
+      	"titleItem": "Pájaro de Fuego", 
+      	"description": "Ilustración Digital", 
+      	"image": "Imagenes/Ilustracion/pajarito.jpg",
+		"tamano":"110%",
+		"id":"2"
+      },
+	  { 
+      	"titleItem": "Tucán", 
+      	"description": "Ilustración Digital", 
+		"image": "Imagenes/Ilustracion/tucan.jpg",
+		"tamano":"130%",
+		"id":"3"
+      },
+	  { 
+      	"titleItem": "Diosa del agua", 
+      	"description": "Ilustración Digital", 
+      	"image": "Imagenes/Ilustracion/Agua1.jpg",
+		"tamano":"190%",
+		"id":"4"
+      },
+	  { 
+      	"titleItem": "Dios de aire", 
+      	"description": "Ilustración Digital", 
+      	"image": "Imagenes/Ilustracion/aire.jpg",
+		"tamano":"100%",
+		"id":"5"
+      },
+	  { 
+      	"titleItem": "Dios de Tierra", 
+      	"description": "Ilustración Digital", 
+      	"image": "Imagenes/Ilustracion/mosca.jpg",
+		"tamano":"110%",
+		"id":"6"
+      },
+	   { 
+      	"titleItem": "Cultivo Humano", 
+      	"description": "Ilustración Digital", 
+      	"image": "Imagenes/Ilustracion/cultivohumano.JPG",
+		"tamano":"100%",
+		"id":"7"
+      },
+	  { 
+      	"titleItem": "El olvido de los dioses", 
+      	"description": "Ilustración Digital", 
+      	"image": "Imagenes/Ilustracion/arana.jpg",
+		"tamano":"310%",
+		"id":"7"
+      },
+	  
+	    { 
+      	"titleItem": "El olvido de los dioses II", 
+      	"description": "Ilustración Digital", 
+      	"image": "Imagenes/Ilustracion/mantisciudad2.jpg",
+		"tamano":"250%",
+		"id":"8"
+      	},
+		
+		{ 
+      	"titleItem": "Robot", 
+      	"description": "Ilustración Digital", 
+      	"image": "Imagenes/Ilustracion/robot1.jpg",
+		"tamano":"96%",
+		"id":"9"
+      	},
+		{ 
+      	"titleItem": "Somos Dos", 
+      	"description": "Ilustración Digital", 
+      	"image": "Imagenes/Ilustracion/dos.jpg",
+		"tamano":"100%",
+		"id":"10"
+      	},
+		
+		{ 
+      	"titleItem": "Opuestos", 
+      	"description": "Ilustración con Acrílicos", 
+      	"image": "Imagenes/Ilustracion/CUADRO.jpg",
+		"tamano":"170%",
+		"id":"11"
+      	},
+		
+		{ 
+      	"titleItem": "Luz en el Fauvismo", 
+      	"description": "Acrílicos", 
+      	"image": "Imagenes/Ilustracion/luz2.jpg",
+		"tamano":"100%",
+		"id":"12"
+      	},
+		{ 
+      	"titleItem": "La Oscura Realidad", 
+      	"description": "Acrílicos", 
+      	"image": "Imagenes/Ilustracion/casa.jpg",
+		"tamano":"120%",
+		"id":"13"
+      	},
+		{ 
+      	"titleItem": "L'Angoisse", 
+      	"description": "Pasteles grasos, Acrílicos", 
+      	"image": "Imagenes/Ilustracion/muneco.jpg",
+		"tamano":"145%",
+		"id":"14"
+      	},
+		{
+		"titleItem": "Árboles Parlantes", 
+      	"description": "Papel cortado, acrílicos.", 
+      	"image": "Imagenes/Ilustracion/arboles.jpg",
+		"tamano":"155%",
+		"id":"15"
+      	},
+		{
+		"titleItem": "Lobos", 
+      	"description": "Papel cortado, acrílicos.", 
+      	"image": "Imagenes/Ilustracion/lobos.jpg",
+		"tamano":"160%",
+		"id":"16"
+      	},
+		{
+		"titleItem": "Bailarina", 
+      	"description": "Papel cortado, pasteles secos.", 
+      	"image": "Imagenes/Ilustracion/bailarina.jpg",
+		"tamano":"155%",
+		"id":"17"
+      	}
+		
+    ]
+}

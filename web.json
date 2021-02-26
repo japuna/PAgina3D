@@ -1,0 +1,46 @@
+{
+	"Catalogo": [
+		{ 
+		  "titleItem": "Vías de Ingreso", 
+          "description": "HTML5, CSS3, JS, WEBGL", 
+      	  "image1": "Imagenes/Web/ingresos.jpg",
+          "image2": "Imagenes/Web/ingreso2.jpg", 
+		  "tamano":"100%",
+		  "id":"1"
+      	},
+      	{ 
+			"titleItem": "Odontograma", 
+          	"description": "HTML5, CSS3, JS, WEBGL", 
+      	  	"image1": "Imagenes/Web/odonto.jpg",
+            "image2": "Imagenes/Web/odonto2.jpg",
+			"tamano":"100%",
+			"id":"2"
+      	},
+		{ 
+			"titleItem": "Página personal Íconos", 
+          	"description": "HTML5, CSS3, JS, WEBGL", 
+      	  	"image1": "Imagenes/Web/pagina.jpg",
+            "image2": "Imagenes/Web/cv.jpg",
+			"tamano":"100%",
+			"id":"3"
+			
+      	},
+		{ 
+            "titleItem": "Ropero", 
+          	"description": "HTML5, CSS3, JS, WEBGL", 
+      	    "image1": "Imagenes/Web/ropero.png",
+            "image2": "Imagenes/Web/ropero2.jpg",
+			"tamano":"100%",
+            "id":"4"
+      	},
+        {
+        "titleItem": "Página Actual", 
+          	"description": "HTML5, CSS3, JS, WEBGL", 
+      	    "image1": "Imagenes/Web/PAGINA1.jpg",
+            "image2": "Imagenes/Web/PAGINA2.jpg",
+			"tamano":"100%",
+            "id":"5"
+      	}
+		
+    ]
+}

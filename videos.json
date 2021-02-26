@@ -1,0 +1,24 @@
+{
+
+"videos":
+    [
+        {
+        "Nombre" : "Video Promocional Servinte",
+        "Descripción": "Video realizado en Motion graphics para promocionar el producto médico. Diseño de personajes, de escenarios y animación. Ilustración digital. Creación de audios mediante loops",
+        "Aficiones": ["Música", "Cine", "Tenis"]
+        },
+        {
+        "Nombre" : "Pinocchio",
+        "Descripción": "Video realizado en Stop Motion dentro del taller de personajes de la licence en color, imagen y diseño. Se realiza con un grupo de compañeros. Diseño de personaje y de escenarios."
+        },
+        {
+        "Nombre" : "Dreaming",
+        "Descripción": "Animación realizada en Motion Graphics como trabajo final de la licence en color, imagen y diseño. diseño de personajes y escenarios en pasteles grasos y secos. Creación de sonidos a través de ruidos y grabación de voz"
+        },
+        {
+        "Nombre" : "Broken Dreams",
+        "Descripción": "Video realizado en Stop Motion. Personaje creado en alambre y lana. Escenarios en plastilina y acrílicos. Sonidos creados a través de ruidos y voz grabada."
+        }
+       
+    ]
+}

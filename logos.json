@@ -1,0 +1,62 @@
+{
+	"Catalogo": [
+		{ 
+		  "titleItem": "Logo Bogavante Original", 
+          "description": "Ilustración Digital", 
+      	  "image": "Imagenes/logos/BogavanteOriginal.jpg",
+		  "tamano":"100%",
+		  "id":"1"
+      	},
+      	{ 
+			"titleItem": "Logo Bogavante Propuesta2", 
+          	"description": "Ilustración Digital", 
+      	  	"image": "Imagenes/logos/logoBogavante2.jpg",
+			"tamano":"100%",
+			"id":"2"
+      	},
+		{ 
+			"titleItem": "Logo Bogavante Propuesta3", 
+          	"description": "Ilustración Digital",
+      	  	"image": "Imagenes/logos/logoBogavante3.jpg",
+			"tamano":"100%",
+			"id":"3"
+			
+      	},
+		{ 
+            "titleItem": "Logo Phoenix Propuesta1", 
+          	"description": "Ilustración Digital",
+      	    "image": "Imagenes/logos/logophoenix.jpg",
+			"tamano":"100%",
+            "id":"4"
+      	},
+		{ 
+            "titleItem": "Logo Phoenix Propuesta2", 
+          	"description": "Ilustración Digital",
+      	    "image": "Imagenes/logos/phoenix.jpg",
+			"tamano":"120%",
+            "id":"5"
+      	},
+		{ 
+            "titleItem": "Logo Flor", 
+          	"description": "Ilustración Digital",
+      	    "image": "Imagenes/logos/flor1.jpg",
+			"tamano":"100%",
+            "id":"6"
+      	},
+		{ 
+            "titleItem": "Logo Altos de Guatapurí", 
+          	"description": "Ilustración Digital",
+      	    "image": "Imagenes/logos/logo-altos.jpg",
+			"tamano":"100%",
+            "id":"7"
+      	},
+		{ 
+            "titleItem": "Logo Altos de Guatapurí", 
+          	"description": "Ilustración Digital",      	    
+      	    "image": "Imagenes/logos/logo2.jpg",
+			"tamano":"130%",
+            "id":"8"
+      	}
+		
+    ]
+}

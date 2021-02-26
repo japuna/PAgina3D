@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Producciones TresPies. Ingeniero multimedia: Desarrollo y diseño Web Animación 2D, Edición de video, productos multimedia. Diseño Gráfico. "/>
+	<title>Trespies Producciones  Diseño Web-Animación-Multimedia</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <meta name='viewport' content='width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1'/>
+ <!--   <script src="JS/less.js" data-poll="1000" data-relative-urls="false"></script>-->
+<link rel="stylesheet" type="text/css" media="screen" href="CSS/Estilos.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="CSS/EstilosAlternos.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-resource.min.js"></script>      
+</head>
+    
+<body ng-app="julioApp">
+	<div id="preloader">
+    	<div id="loader"></div>
+    </div>
+    <nav>
+    <div id="navegacion">
+    	<div id="idiomas">
+        	<div class="lenguas" id="es"></div>
+            <div class="lenguas" id="en"></div>
+            <div class="lenguas" id="fr"></div>
+        </div>
+        <div id="menu">
+        	<div class="menuS" id="ver1"  href="#presentacionVer"><h1>Ver</h1></div>  
+			<div class="menuS" id="mover1" href="#presentacionMover"><h1>Mover</h1></div>
+            <div class="menuS" id="contar1" ><h1>Contar</h1></div>
+            <div class="menuS" id="Trespiesar1"><h1>Trespiesar</h1></div>
+			<div class="menuS" id="contactar1"><h1>Contactar</h1></div>
+        </div>    
+        <div class="menuDesplegable" id="menuDesplegable">
+         		<svg>
+         			<line  x1="0" y1="0" x2="0" y2="70" style="stroke:white;stroke-width:3" />
+         		</svg>
+		</div>
+	</div>
+    
+    
+     <div class="menuPequeno" id="menuPequeno">
+     	<div class="menuPeqLetras">Ver</div>
+           <svg class="lineasMenu">
+         			<line  x1="0" y1="0" x2="400" y2="0" style="stroke:white;stroke-width:2" />
+         	</svg>
+            
+        	<div class="menuPeqLetras">Contar</div>
+           <svg class="lineasMenu">
+         			<line  x1="0" y1="0" x2="400" y2="0" style="stroke:white;stroke-width:2" />
+         	</svg>
+            
+            <div class="menuPeqLetras" style="margin-top:0">Mover
+            </div>
+             <svg class="lineasMenu">
+         			<line  x1="0" y1="0" x2="400" y2="0" style="stroke:white;stroke-width:2" />
+         	</svg>
+            <div class="menuPeqLetras" style="margin-top:0">Trespiesar</div>
+             <svg class="lineasMenu">
+         			<line  x1="0" y1="0" x2="400" y2="0" style="stroke:white;stroke-width:2" />
+         	</svg>
+            <div class="menuPeqLetras" style="margin-top:0">Contactar
+            </div>
+        </div>
+    
+    
+    
+    </nav>    
+	<div id="portada">
+    	
+        
+        
+    	<div id="imagen"></div>
+    	<div id="letras">
+           
+        	<center>
+    			<h2>PRODUCCIONES</h2>
+    			<h1>TRESPIES</h1>
+    			<h3>Diseño Inteligente</h3>   
+            </center>
+    	</div>
+
+ 
+    </div>
+	<footer>
+
+    		<div class="imagenRedes" id="facebook"></div>
+            <div class="imagenRedes" id="instagram"></div>
+            <div class="imagenRedes" id="google"></div>
+
+    </footer>
+ 	<div id="contenedor3d"></div>
+
+ <div class="presentacion" id="presentacionVer">
+    
+    	 <div class="imagenSeccion" id="ojo"></div>
+        <div class="presentacionSeccion" id="presentacionseccionVer">
+    	   <h1>VER</h1>    
+    	</div>
+        <div id="seccionVer">
+            <div id="prev" class="botonSecciones" ></div>
+            <h1>IlUSTRACIÓN</h1>
+             <div id="next" class="botonSecciones"></div>
+        </div>
+    </div>
+    
+    <div id="seleccion" ng-controller="verCtrl">
+        
+    </div>
+    
+    
+    <div class="emergente" id="emergenteIlustra" style= "top:100px">
+        <div id="tituloIlustra"></div>
+      
+        <div id="descripcionIlustra">
+        <center>Esto es una super descripción</center>
+        </div>
+        <div id="imagenIlustra" class="imagenFondo"></div>
+        <div id="imagenIlustra1" class="imagenFondo"></div>
+        <div id="imagenIlustra2" class="imagenFondo"></div>
+        <div class="salir" id='salir1' onclick='ocultar1()'></div>
+    </div> 
+
+    <div class="presentacion" id="presentacionMover" style="background-color:#333">
+    
+    	 <div class="imagenSeccion" id="pierna"></div>
+        <div class="presentacionSeccion" id="presentacionseccionMover" style="margin-left:20%">
+    	   <h1>MOVER</h1>    
+    	</div>
+    </div>
+    <div id="reel">
+        <iframe width="30%" height="237" src="https://www.youtube.com/embed/G1qexscSp0M" frameborder="0" allowfullscreen controls="2" style="margin:auto"> 
+        </iframe>    
+    </div>  
+        <div id="servinte" class="seccionMostrar">
+            <div class="seccionMostrarArriba" id="videoArriba">
+                <h1>VIDEO PROMOCIONAL</h1>
+            </div> 
+        </div>
+    
+        <div id="pinocchio" class="seccionMostrar">
+            <div class="seccionMostrarArriba" id="OrejasArriba">
+                <h1>PINOCCHIO</h1>
+            </div> 
+        </div>
+        <div id="bailarina" class="seccionMostrar">
+            <div class="seccionMostrarArriba" id="bailarinaArriba">
+                <h1>DREAMING</h1>
+            </div>
+        </div>
+        
+         <div id="pesadilla" class="seccionMostrar">
+              <div class="seccionMostrarArriba" id="pesadillasArriba">
+                <h1>BROKEN DREAMS</h1>
+            </div>  
+        </div>
+    
+    <div id="galeriaVer" style="display:none">
+        <div id="info">
+            <div id="encabezado">
+                <h1>Pinocchio</h1>
+            </div>
+            <div id="parrafo">
+                <p>Esto es un super parrafo con toda pero pues que se puede hacer si no hay para ma pero bueno</p>
+            </div>
+        </div>
+        <div id="slideShow">
+            <div class="botonesGaleria" id="prev2"></div>
+            <div id="imagenVideo"></div>
+            <div class="botonesGaleria"></div>
+        </div>
+    </div>
+ 
+    
+ <script src="js/three.min.js"></script>
+ <script src="js/jquery.js"></script>       
+ <script src="js/Modelos3D.js"></script>
+ <script src="js/menu.js"></script>
+<script src="js/galeria.js"></script> 
+<script src="js/controllers.js"></script>     
+ 
+ <script type="text/javascript">
+$(window).load(function() {
+    $('#preloader').fadeOut('slow');
+    $('body').css({'overflow':'visible'});
+})
+</script>
+
+</body>
+</html>
